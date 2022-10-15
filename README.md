@@ -4,8 +4,8 @@ This is a python project that scrapes a MyAnimeList profile without the use of t
 
 There are 3 modules used:
 
-- requests
-- beautiful soup
+- [requests](https://pypi.org/project/requests/)
+- [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 - datetime
 
 ## Functionality
