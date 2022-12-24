@@ -24,13 +24,13 @@ data = soup.select("span")
 
 
 Days = float(daynum)
-TotalEntries = int(data[40].getText())
-Episodes = int(data[44].getText().replace(",", ""))
-Completed = int(data[35].getText())
-Watching = int(data[34].getText())
-Planned = int(data[38].getText())
-Rewatched = int(data[42].getText())
-MeanScore = float(data[28].getText())
+TotalEntries = int(data[38].getText())
+Episodes = int(data[42].getText().replace(",", ""))
+Completed = int(data[33].getText())
+Watching = int(data[32].getText())
+Planned = int(data[36].getText())
+Rewatched = int(data[40].getText())
+MeanScore = float(data[26].getText())
 
 
 print(datestr + " @ " + time)
